@@ -1,6 +1,5 @@
 import { handleHttpErrors } from "./util.js"
-
-const url = "https://cars4.azurewebsites.net/api/cars/"
+import { url } from "./util.js"
 
 export function addOne() {
     document.getElementById("bnt-submit-new-car").onclick = makeNewCar

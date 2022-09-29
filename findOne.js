@@ -1,6 +1,5 @@
 import { handleHttpErrors } from "./util.js"
-
-const url = "https://cars4.azurewebsites.net/api/cars/"
+import { url } from "./util.js"
 
 export async function findOne() {
     document.getElementById("car-info").innerText = ""

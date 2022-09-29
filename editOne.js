@@ -1,6 +1,5 @@
 import { handleHttpErrors } from "./util.js"
-
-const url = "https://cars4.azurewebsites.net/api/cars/"
+import { url } from "./util.js"
 
 export function editOne() {
       document.getElementById("btn-find-car-to-edit").onclick = findCar

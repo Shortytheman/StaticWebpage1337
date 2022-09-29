@@ -1,4 +1,5 @@
 
+export const url = "https://cars4.azurewebsites.net/api/cars/"
 
 export async function handleHttpErrors(res) {
     if (!res.ok) {
